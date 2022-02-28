@@ -9,5 +9,8 @@
     "ethers": "^5.5.4",
     "hardhat": "^2.8.4",
     "ts-node": "^10.5.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0"
   }
 }
