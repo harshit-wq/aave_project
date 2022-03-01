@@ -54,5 +54,11 @@ describe("starting tests", function () {
 
 
     })
+
+    it("testing the run", async function (){
+
+      await deployed_contract.run_contract(user1_coinbase1, user2_coinbase2, usdc_on_aave, 0, 1, 100, 6, 3);
+
+    })
   });
 });
